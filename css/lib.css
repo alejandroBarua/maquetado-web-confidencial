@@ -1,0 +1,60 @@
+.text-gray{
+	color: #717171;
+}
+
+.bg-red{
+	background-color: #C60C30;
+}
+
+.fs-10{
+	font-size: 10px;
+}
+
+.fs-18{
+	font-size: 18px;
+}
+
+.fs-24{
+	font-size: 24px;
+}
+
+.fs-36{
+	font-size: 36px;
+}
+
+.text-semi-bold{
+	font-weight: 600;
+}
+
+.d-flex{
+	display: flex;
+	align-items: center;
+}
+
+.align-items-start{
+	align-items: flex-start;
+}
+
+.flex-column{
+	flex-direction: column;
+}
+
+.justify-content-between{
+	justify-content: space-between;
+}
+
+.justify-content-center{
+	justify-content: center;
+}
+
+.pe-1{
+	padding-right: 1rem;
+}
+
+.ps-1{
+	padding-left: 1rem;
+}
+
+.ff-work-sans{
+	font-family: 'Work Sans', sans-serif;
+}

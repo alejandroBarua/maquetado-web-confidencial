@@ -1,0 +1,157 @@
+:root{
+	--color-blue: #005077; 
+	--color-gray-ligth: #DDE5ED; 
+}
+
+.container{
+ 	max-width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.spacing{
+	padding-left: 85px;
+	padding-right: 85px;
+}
+
+.border-ligth{
+	border: solid 1px var(--color-gray-ligth);
+}
+
+/* header - menu top */
+
+.top-bar{
+	height: 42px;
+	font-size: 14px;
+}
+
+.search-icon{
+	position: relative;
+	top: 4px;
+}
+
+.num-day{
+	font-weight: 500;
+	padding-left: 0.3rem;
+	position: relative;
+	top: 1px;
+}
+
+.celsius{
+	position: relative;
+	bottom: 5px;
+}
+
+.point{
+	position: relative;
+	bottom: 4px;
+}
+
+/* header - menu main */
+
+.menu-main{
+	height: 135px;
+}
+
+.logo-main{
+	height: 54.3px;
+}
+
+.navbar-main{
+	font-weight: 500;
+}
+
+.navbar-main > ul > li{
+	padding-right: 1rem;
+	position: relative;
+	top: 0.7rem;
+}
+
+/* content - destacados */
+
+.content{
+	font-family: 'Raleway', sans-serif;
+	height: 960px;
+	padding-top: 1.7rem;
+}
+
+.destacado > * {
+	padding-left: 0.3rem;
+}
+
+.destacado > a{
+	color: var(--color-blue);
+	font-weight: 700;
+}
+
+.cicle{
+	width: 11px;
+	height: 11px;
+	border-radius: 50%;
+}
+
+/* news */
+
+.d-grid{
+	display: grid;
+	grid-template-columns: 348px 481px 1fr;
+	gap: 1rem;
+}
+
+.news-container{
+	margin-top: 1.5rem;
+}
+
+.news-container h1{
+	letter-spacing: -0.72px;
+	margin-bottom: 3.2rem;
+}
+
+.news-container figcaption{
+	padding-top: 0.9rem;
+}
+
+.news-container h3,
+.news-container p{
+	font-weight: bold;
+	letter-spacing: -0.35px;
+}
+
+.news-container h3{
+	margin-bottom: 0.5rem;
+	font-size: 14px;
+	color: var(--color-blue);
+}
+
+.news-container p{
+	font-size: 18px;
+}
+
+.section-center{
+	border-left: solid 1px var(--color-gray-ligth);
+	border-right: solid 1px var(--color-gray-ligth);
+	padding-left: 1rem;
+	padding-right: 1rem;
+}
+
+.border-bottom{
+	border-bottom: solid 1px var(--color-gray-ligth);
+}
+
+.section > div{
+	padding-top: 1.3rem;
+	padding-bottom: 1.3rem;
+}
+
+div.pt-0{
+	cursor: pointer;
+	padding-top: 0;
+}
+
+div.pb-25{
+	padding-bottom: 2.5rem;
+}
+
+.ps-1{
+	padding-left: 1.1rem;
+}
